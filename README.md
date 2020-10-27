@@ -1,1 +1,1 @@
-# test-repo
+![](https://octodex.github.com/images/scubatocat.png)
