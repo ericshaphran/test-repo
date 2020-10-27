@@ -11,7 +11,8 @@ library(tidyverse)
 ```
 
 ```{r}
-ggplot(data = mpg, aes(x = class, y = cty)) +
-	geom_jitter()
+ggplot(data = mpg, aes(x = class, y = cty, color = class, alpha = 0.5)) +
+	geom_jitter() +
+  labs(x = "Car class", y = "City mpg")
 ```
 
